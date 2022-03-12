@@ -1,0 +1,139 @@
+.cabecalho{
+  display: flex;
+  justify-content: space-between;  
+  position: fixed;
+  box-sizing:border-box;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+
+  
+}
+
+.menuPrincipal{
+  font-family: var(--familia-corpo);
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 70%;
+ align-self: center;
+ margin-top: 2rem;
+ 
+ 
+ 
+}
+.menuPrincipal-lista{
+  display: flex;
+  justify-content:flex-end;
+ 
+}
+.logo{
+  width: 150px;
+  
+}
+.logo:hover{
+  transform: scale(1.1);
+
+  
+}
+.menuPrincipal-item{
+  margin-left: 1rem;
+}
+
+.menuPrincipal-item a:visited {
+  color:var(--azul);
+  
+
+}
+.menuPrincipal-item a:hover {
+  color: var(--vermelho);
+  background-color: var(--amarelo);
+  border-radius: 20px;
+  padding: 5px;
+  transition-duration: 200ms;
+
+
+}
+.menuHamburguer{
+  display:none;
+  position: fixed;
+  top:1rem;
+  right:1rem;
+}
+/*.transicao{
+  margin-top: -20px;
+  height: 40px;
+  background: linear-gradient(#fff, var(--azul));
+}*/
+
+@media screen and (max-width:768px){
+
+.container{
+margin:0px;
+padding:0px;
+}
+
+.cabecalho{
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: 0;
+  
+ 
+}
+.logo{
+  display:none;
+}
+.menuPrincipal{
+  width: auto;
+  
+  
+}
+.menuPrincipal-lista{
+  font-size:0.9rem;
+  background-position: 0%;
+  padding-left:0;
+  padding:0.6rem ;
+  display: none;
+  width: auto;
+  
+  
+}
+
+.menuPrincipal-item{
+  
+  margin-bottom: 0.7rem;
+  align-self: flex-end;
+}
+.menuPrincipal-item a:hover {
+  color: var(--vermelho);
+  background-color:fff;
+  border-radius: none;
+  padding: none;
+  transition-duration: 200ms;
+  box-sizing: border-box;
+  
+}
+.menuHamburguer{
+  display: inline-block;
+  color: var(--preto);
+  border: none;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  background-color:  rgba(251, 221, 49, 0.85);
+  margin-top: -10px;
+  
+}
+.menuPrincipal-lista-botao{
+  
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(251, 221, 49, 0.85);
+  margin-top: 2rem; 
+  border-radius: 15px;
+  
+  
+
+
+}
+
+
+
+}

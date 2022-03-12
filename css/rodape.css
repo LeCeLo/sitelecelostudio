@@ -1,0 +1,21 @@
+.copyright{
+  text-align: center;
+  font-size: 1rem;
+  color:var(--amarelo);
+}
+.rodape{
+  padding: 5rem;
+  background:linear-gradient( var(--azul),var(--azul),var(--vermelho));
+  background-size: contain;
+}
+@media screen and (max-width:768) {
+  .rodape{
+    padding: 0 0 0 0;
+  }
+
+  .copyright{
+  
+  text-align: center;
+  font-size: 0.3rem;
+}
+}

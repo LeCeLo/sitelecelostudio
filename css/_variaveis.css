@@ -1,0 +1,19 @@
+:root{
+--fonteTitulo:'Caveat Brush', cursive;
+--fonteCorpo:'Poppins', sans-serif;
+
+--pesoRegular: 400;
+--pesoSubtitulo:200;
+--pesoDestaque:700;
+
+--tamanhoTitulo:5.5rem;
+--tamanhoDetaque:2.5rem;
+--tamanhoSubtitulo:2rem;
+--tamanhoCorpo:1.6rem;
+
+--preto:#4b4a47;
+--vermelho:#e75357;
+--azul:#184391;
+--amarelo:#fbdd31;
+
+}
