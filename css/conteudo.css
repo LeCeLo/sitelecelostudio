@@ -10,8 +10,9 @@
 }
 .video_abertura{
 border-radius: 15px;
-width:220px
-  
+width:20%;
+height:22%;
+align-self: center;
 }
 .logoPrincipal{
   width: 40%;
