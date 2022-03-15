@@ -5,10 +5,16 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: space-around;
+  padding:3rem;
 
 }
+.video_abertura{
+border-radius: 15px;
+width:220px
+  
+}
 .logoPrincipal{
-  width: 70%;
+  width: 40%;
   align-items: center;
   max-width: 650px;
   margin-bottom: 10rem;
@@ -264,6 +270,18 @@ background-color: var(--azul);
   
 }
 @media screen and (max-width:768px) {
+  .abertura{
+    flex-direction: column;
+    padding:0;
+  
+  }
+  .video_abertura{
+    border-radius: 15px;
+    align-self: center;
+    width: 300px;
+    margin-bottom:2rem;
+      
+    }
   .logoPrincipal{
     padding-top: 2rem;
   }
